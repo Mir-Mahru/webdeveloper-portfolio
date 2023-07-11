@@ -126,6 +126,12 @@ main section {
   display: flex;
   gap: 24px;
 }
+.resume-item-title {
+  color: #474747;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
 .skills {
   padding: 30px;
   border-radius: 5px;
@@ -142,3 +148,27 @@ main section {
   font-size: 30px;
   font-weight: 700;
 }
+
+.resume-container {
+  display: flex;
+  gap: 50px;
+}
+
+.resume-item-institutes{
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+.resume-item-description,
+.resume-item-institutes {
+  color: #757575;
+}
+
+ .resume-container hr{
+    margin: 30px;
+ }
+
+ .download-cv{
+    text-align: center;
+    margin-top: 50px;
+ }
